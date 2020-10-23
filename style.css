@@ -1,0 +1,98 @@
+{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 400;
+  background: url(Portfolio-Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60vh;
+  min-width: 80%;
+}
+
+.text{
+  margin-left: 28px;
+}
+
+.stuff{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 800px;
+}
+
+.big{
+  font-size: 90px;
+  transform: translate(-8px, 0px);
+  
+}
+
+.school{
+  font-size: 36px;
+  font-weight: 300;
+}
+
+
+.blurb{
+  padding-top: 70px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.avatar{
+  height: 200px;
+  border-radius: 25%;
+  padding: 8px;
+  border: 2px solid #FFFFFF;
+}
+
+.s-m{
+  padding-top: 30px;
+}
+
+.s-m a{
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  background: #000000;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+.labels{
+  padding-top: 10px;
+}
+
+.labels p{
+  display: inline-flex;
+  font-size: 17px;
+  width: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: center;
+}
+
+.s-m a:hover{
+  background: #489d8b;
+}
+
+.s-m a i{
+  transition: 0.2s all;
+}
+
+.s-m a:hover > i{
+  transform: scale(1.2) rotate(20deg)
+}
